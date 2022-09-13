@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /**
- * main main block
+ * main - main block
  * Description: Get a random number and print the number
  * and if it is positive, negative or zero
  * Return: 0
@@ -20,4 +20,5 @@ int main(void)
 	else
 		printf("%i is zero\n", n); 
 	
-	return (0)
+	return (0);
+} 
