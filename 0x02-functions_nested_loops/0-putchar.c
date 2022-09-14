@@ -1,4 +1,4 @@
-#include "0. _putchar.h"
+#include "function.h"
 
 /**
  * main - Entry point
@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char c[10] = "Putchar";
+	char c[10] = "Function";
 	int i = 0;
 	while (i < 9)
 	{
