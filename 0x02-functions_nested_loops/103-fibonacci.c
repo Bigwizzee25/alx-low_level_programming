@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: a program that finds and prints the sum of the even-valued terms,
- * under 4 million, followed by a new line.
+ * Description: sum even fibonacci numbers under 4 million,
+ * followed by a new line.
  * Return: 0
  */
 int main(void)
