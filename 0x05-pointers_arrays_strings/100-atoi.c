@@ -22,5 +22,5 @@ int _atoi(char *s)
 		resp *= 10;
 		resp += (s[i] - 48);
 	}
-	resp += (s[i] - 48);
+	return (sign * resp);
 }
