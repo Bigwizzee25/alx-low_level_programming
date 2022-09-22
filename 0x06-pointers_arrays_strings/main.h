@@ -1,6 +1,6 @@
-#ifndef "MAIN_H_INCLUDED"
-#define "MAIN_H_INCLUDED"
-#include "stdio.h"
+#ifndef MAIN_H
+#define MAIN_H
+#include <stdio.h>
 /**
  * void prototypes()
  * int prototypes()
