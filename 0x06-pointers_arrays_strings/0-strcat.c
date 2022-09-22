@@ -7,6 +7,7 @@
  * @*src: String to be concatenuated upon
  * Return: returns pointer to @dest
  */
+
 char *_strcat(char *dest, char *src)
 {
 	int index = 0, dest_len = 0;
