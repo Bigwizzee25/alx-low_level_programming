@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * *string_toupper - c function that capitalize a string
- * @str: pointer
- * Return: capitalzied string
+ * *string_toupper - c function changes all lowercase to uppercase
+ * @str: string to be changed
+ * Return: address to the string
  */
 
 char *string_toupper(char *)
