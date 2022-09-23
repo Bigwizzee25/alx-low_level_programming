@@ -33,13 +33,13 @@ char *cap_string(char *str)
 				str[index - 1] == '\t' ||
 				Str[index – 1] == '\n' ||
 				Str[index – 1] == ',' ||
-				Str[index – 1] == '.'||
-				Str[index – 1] == '!'||
-				Str[index – 1] == '?'||
-				Str[index – 1] == '"'||
-				Str[index – 1] == '('||
-				Str[index – 1] == ')'||
-				Str[index – 1] == '{'||
+				Str[index – 1] == '.' ||
+				Str[index – 1] == '!' ||
+				Str[index – 1] == '?' ||
+				Str[index – 1] == '"' ||
+				Str[index – 1] == '(' ||
+				Str[index – 1] == ')' ||
+				Str[index – 1] == '{' ||
 				Str[index – 1] == '}')
 			Str[index] -= 32;
 	}
