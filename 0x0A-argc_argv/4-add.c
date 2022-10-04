@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.b>
+#include <stdlib.h>
 
 /**
  * isInteger - checks if s is an integer
