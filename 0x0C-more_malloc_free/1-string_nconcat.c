@@ -14,6 +14,7 @@ unsigned int _strlen(char *s)
 		;
 	return (size);
 }
+
 /**
  * *string_nconcat - concatenates two strings
  * @s1: string 1
@@ -21,6 +22,7 @@ unsigned int _strlen(char *s)
  * @n: first bytes of s2 to be used
  * Return: NULL or pointer
  */
+
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int i, j;
@@ -28,7 +30,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (s1 == NULL)
 		s1 = "";
-	if *s2 == (NULL)
+	if (s2 == NULL)
 		s2 = "";
 	if (n < _strlen(s2))
 		m = malloc(_strlen(s1) + n * sizeof(char) + 1);
