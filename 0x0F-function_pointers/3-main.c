@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 	p = *argv[2];
 	if ((p == '/' || p == '%') && arg2 == 0)
 	{
-		printf("Erro\n");
+		printf("Error\n");
 		exit(100);
 	}
 	result = func(arg1, arg2);
